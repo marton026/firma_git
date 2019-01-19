@@ -8,6 +8,26 @@ public class Pracownik {
     private int dzieci;
     private boolean stan_cywilny;
 
+    public void wyswietl() {
+
+    }
+
+    public void wyswietlINP() {
+
+    }
+
+    public void wyswietlIN() {
+
+    }
+
+    public boolean czyPensjaPowyzej(float pensja) {
+        return true;
+    }
+
+    public void podwyzka(int procent) {
+
+    }
+
     public Pracownik() {
     }
 
