@@ -20,6 +20,31 @@ public class Pracownik {
 
     }
 
+    public Pracownik(String imie, String nazwisko, char plec, int nr_dzialu, float placa, int wiek, int dzieci, boolean stan_cywilny) {
+        this.imie = imie;
+        this.nazwisko = nazwisko;
+        this.plec = plec;
+        this.nr_dzialu = nr_dzialu;
+        this.placa = placa;
+        this.wiek = wiek;
+        this.dzieci = dzieci;
+        this.stan_cywilny = stan_cywilny;
+    }
+
+
+    public String toString() {
+        return "Pracownik{" +
+                "imie='" + imie + '\'' +
+                ", nazwisko='" + nazwisko + '\'' +
+                ", plec=" + plec +
+                ", nr_dzialu=" + nr_dzialu +
+                ", placa=" + placa +
+                ", wiek=" + wiek +
+                ", dzieci=" + dzieci +
+                ", stan_cywilny=" + stan_cywilny +
+                '}';
+    }
+
     public boolean czyPensjaPowyzej(float pensja) {
         return true;
     }
