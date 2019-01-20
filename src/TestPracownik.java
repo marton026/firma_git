@@ -9,9 +9,14 @@ public class TestPracownik {
 
         Kadra kadra = new Kadra();
 
+        kadra.pracownicy.add(prac1);
+        kadra.pracownicy.add(prac2);
+
+        //kadra.pracownicy.
 
 
-        kadra.getPracownicy();
+
+        System.out.println(kadra.getPracownicy().get(1));
 
     }
 }
